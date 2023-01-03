@@ -1,0 +1,13 @@
+.buyer-detail-layout {
+    height: 100%;
+}
+
+.buyer-detail-layout div.detail_wrap .ant-descriptions-header {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.buyer-detail-layout div.detail_wrap .ant-descriptions-view {
+    text-align: left;
+    margin-left: 20px;
+}

@@ -1,0 +1,112 @@
+
+.buyer-main-component {
+    text-align: center;
+}
+
+.visual-banner {
+    display: inline-block;
+}
+
+.best-banner {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 180px;
+    padding: 30px 0;
+}
+
+.brand-banner {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+
+.multi-banner {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.multi-banner .banner {
+    display: inline-block;
+    width: 23%;
+    margin: 0 1%;
+    padding: 20px 0;
+    vertical-align: top;
+}
+
+.multi-banner .banner img {
+    width: 100%;
+}
+
+
+
+.multi-banner .notice-banner {
+    width: 50%;
+    float: left;
+}
+
+.multi-banner .service-center-banner {
+    width: 50%;
+    float: right;
+    padding-left: 50px;
+}
+
+
+.buyer-main-component .banner-title {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.buyer-main-component .banner-title h4 {
+    color: #4a4848;
+}
+
+.buyer-main-component .banner-title .banner-title-link {
+    margin-left: 10px;
+}
+
+.buyer-main-component .banner-title .banner-title-link a {
+    color: #828282;
+    font-size: 14px;
+}
+
+/* potionworks*/
+
+.homeTitle {
+    text-align: center !important;
+    padding: 0 0 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.buyer-main-component .banner-title-link a {
+    background: #518F7C;
+    color: #ffffff !important;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 13px !important;
+    vertical-align: 1px;
+    display: inline-block;
+}
+
+.brand-banner img {
+    width: 100%;
+}
+
+.homeBrandBan {
+    margin: 0px 15px;
+}
+
+.multi-banner50 .banner {
+    width: 47%;
+}
+
+.homeLogo {
+    border-bottom: 1px solid #DBDBDB;
+    padding-bottom: 15px;
+
+}
+
+.homeLogo h3 {
+    font-weight: normal;
+}

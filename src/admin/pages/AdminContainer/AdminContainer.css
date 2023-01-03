@@ -1,0 +1,54 @@
+.site-layout-content {
+    min-height: calc(100vh - 188px);
+    padding: 24px;
+    background: #fff;
+}
+
+.layout {
+}
+
+.header-container:after {
+    clear: both; display: block; content: ''
+}
+.header-container .header-item {
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+.header-container .header-menu-list {
+    max-width: calc(100vw - 340px);
+    float: right;
+}
+.header-container .header-menu-list ul {
+    float: right;
+}
+.header-container .header-item.avatar {
+    text-align: right;
+    padding-right: 10px;
+    float: right;
+    width: 80px;
+}
+
+.header-container .logo-text {
+    line-height: 31px;
+    color: white;
+    font-weight: bold;
+}
+
+.header-container .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/*메뉴 hover, click 시*/
+.header-container .header-menu-list .ant-menu.ant-menu-dark .ant-menu-item-selected, .header-container .header-menu-list .ant-menu.ant-menu-dark .ant-menu-item-active {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.layout .menu-bread-crumb {
+    text-align: left;
+}

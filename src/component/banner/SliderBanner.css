@@ -1,0 +1,31 @@
+
+.slider-banner-component {
+
+}
+
+
+.slider-banner-component .slider-layout {
+    min-height: 300px;
+}
+
+.react__slick__slider__parent {
+    position: relative;
+}
+
+.react__slick__slider__parent .slick-prev, .react__slick__slider__parent .slick-next {
+    position: absolute;
+    top: 50%;
+}
+.react__slick__slider__parent .slick-prev {
+    color: #ff7700;
+    z-index: 1;
+}
+.react__slick__slider__parent .slick-next {
+    border-radius: 50%;
+    color: #ff7700;
+    z-index: 1;
+}
+
+.react__slick__slider__parent .slick-prev:before, .slick-next:before {
+    color: black;
+}

@@ -1,0 +1,63 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.23.2",
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "extracted-loader": "^1.0.7",
+    "html-to-draftjs": "^1.5.0",
+    "immutable": "^4.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "package.json": "^2.0.1",
+    "prop-types": "^15.8.1",
+    "query-string": "^7.1.1",
+    "react": "^18.0.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-daum-postcode": "^3.1.1",
+    "react-dom": "^18.0.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-hook-form": "^7.30.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "2.1.7",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.9.3",
+    "yarn.lock": "^0.0.1-security"
+  },
+  "proxy": "https://xx.co.kr",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@types/draft-js": "^0.11.9",
+    "@types/draftjs-to-html": "^0.8.1",
+    "@types/html-to-draftjs": "^1.4.0",
+    "@types/react-draft-wysiwyg": "^1.13.4",
+    "recoil": "^0.7.3"
+  }
+}

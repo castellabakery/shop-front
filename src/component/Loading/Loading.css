@@ -1,0 +1,14 @@
+.ant-spin-nested-loading > div > .ant-spin .ant-spin-text {
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ant-spin-blur {
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.ant-spin-blur::after {
+    opacity: 0;
+}

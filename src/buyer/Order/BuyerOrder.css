@@ -1,0 +1,90 @@
+.table-center {
+    margin: 0 auto;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.rowCol-padding-10 div{
+    padding: 5px;
+}
+
+/* potionworks */
+
+.orderProductList td .ant-row .ant-col-12 {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerTotalPrice {
+    font-size: 18px;
+    padding: 20px 10px;
+    margin-bottom: 50px;
+    text-align: right;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.containerTotalPrice b {
+    font-size: 24px;
+    color: #1F6FBF;
+}
+
+.containerOrderBuyer {
+    padding: 30px !important;
+}
+
+.containerOrderMoney {
+    padding: 30px !important;
+    background: #F4F7FB;
+    border-radius: 10px;
+}
+
+.containerOrderMoney .supportText {
+    padding: 20px 10px;
+    line-height: 2;
+}
+
+.containerOrderBuyer .supportText {
+    background: #FEFFEB;
+    padding: 20px ;
+    line-height: 2;
+}
+
+.containerOrderMoney .ant-input-number, .containerOrderMoney .ant-input-number div {
+    padding: 0px !important;
+}
+
+.ant-result-success .ant-result-icon > .anticon {
+    color: #518F7C;
+}
+
+.ant-result-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitleSuccess p {
+    color: #000000;
+    padding: 5px 0;
+}
+
+.subtitleSuccess div {
+    background: #F3F3F3;
+    color: #518F7C;
+    font-size: 24px;
+    padding: 10px 0;
+    width: 90%;
+    max-width: 600px;
+    margin: 10px auto;
+    border-radius: 10px;
+}

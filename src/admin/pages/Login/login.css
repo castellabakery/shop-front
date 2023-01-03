@@ -1,0 +1,9 @@
+.login-layout-content {
+    min-height: calc(100vh - 188px);
+    padding: 24px;
+}
+
+.login-layout-header {
+    color: white;
+    font-weight: bold;
+}

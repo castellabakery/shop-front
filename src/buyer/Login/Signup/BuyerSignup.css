@@ -1,0 +1,118 @@
+.buyer-signup-container {
+    margin: 50px 0;
+}
+
+.buyer-signup-form {
+    width: 700px;
+    display: inline-flex;
+}
+
+.buyer-signup-form h3 {
+    margin: 30px 0;
+}
+
+.buyer-signup-form Form {
+    margin: 30px 0;
+    text-align: left;
+}
+
+.buyer-signup-form Form Input {
+    /* line-height: 25px; */
+    float: left;
+}
+
+.buyer-signup-form Form label {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.buyer-signup-form Form.Item {
+    display: inline-flex;
+    align-items: flex-start;
+    
+}
+
+/* 공통으로 빼야함 */
+.input-small {
+    width: 100px;
+    float: left;
+}
+
+.input-middle {
+    width: 200px;
+    float: left;
+}
+.input-large {
+    width: 400px;
+    float: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/* potionworks */
+
+.loginTitle {
+    text-align: center;
+    font-size: 20px;
+    padding:50px 0 35px ;
+    border-bottom: 1px solid #DBDBDB;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.loginTextbox {
+    background: #F4F7FB;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.loginTextbox2 {
+    background: #F3F3F3;
+    padding: 20px;
+    color: #518F7C;
+    margin: 30px auto;
+    text-align: center;
+    width:100%;
+    max-width: 400px;
+    font-size: 20px;
+}
+
+.loginCheckbox {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+a.btn-fix1{
+    padding-top:10px !important;
+    line-height: inherit !important;
+}
+.registrationForm {
+    margin-top : 0px !important;
+}
+
+.registrationForm .ant-form-item {
+    margin:0px ;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.registrationForm .ant-form-item:first-child {
+    border-top: 1px solid #DBDBDB;
+}
+
+.registrationForm .ant-form-item-label {
+    background: #F8F8F8;
+    padding: 15px 20px;
+}
+
+.registrationForm .ant-form-item-control {
+    padding: 15px 20px;
+}
+
+.registrationForm .borderTop {
+    border-top : 1px solid #dbdbdb;
+}

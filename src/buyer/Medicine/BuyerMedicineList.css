@@ -1,0 +1,290 @@
+.table-center {
+    margin: 0 auto;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.medicine-list-container {
+    width: 100%;
+}
+
+.medicine-list-card {
+    height: auto;
+    margin: 10px
+}
+
+.medicine-list-card-img {
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    border-bottom: 1px solid rgba(243, 243, 243, 0.452);
+}
+
+.medicine-list-card-img > img {
+    width: 90%;
+}
+
+.medicine-list-pagination {
+    width: 100%;
+}
+
+.medicine-list-card-input-number {
+    width: 60%;
+}
+
+.medicine-list-card-description {
+    text-align: left;
+}
+.medicine-list-card-description > p {
+    margin: 5px 0;
+}
+
+.medicine-list-card-description .name {
+    font-weight: 500;
+}
+
+.medicine-list-card-description .price {
+    font-weight: 500;
+    color: #1890ff;
+}
+
+.medicine-list-none-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.medicine-list-none-container .description {
+    text-align: left;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.medicine-list-none-container .description .title{
+    margin: 0 0 20px 0;
+    font-weight: 600;
+}
+
+.medicine-list-none-container .description p {
+    margin: 0 auto;
+}
+
+.medicine-list-none-container img {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.medicine-list-button {
+    margin: 30px;
+}
+
+.medicine-list-button button {
+    margin: 0 5px;
+}
+
+
+
+/* potionworks */
+
+.medicine-list-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50, 50);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 3px;
+    border:1px solid #DBDBDB;
+
+}
+
+.medicine-list-img .ant-image {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.pageTitle {    
+    font-weight: bold;
+    font-size: 24px;
+    color: #518F7C;
+}
+
+.breadcrumbContainer {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.breadcrumbContainer ol {
+    display: block !important;
+}
+
+.breadcrumbContainer ol li {
+    display: inline-block !important;
+}
+
+.productListSort {
+    margin-top: 20px;
+    padding:15px ;
+    border-top: 1px solid #D6E0C6;
+    border-bottom: 1px solid ;
+    border-image: linear-gradient(90deg, #D6E0C6, #94aac0);
+    border-image-slice: 1;
+
+}
+
+.productListSort a {
+    display: inline-block;
+    color: #82AF3A;
+    margin-right: 30px;
+}
+.productListSort a:last-child {
+    margin-right: 0px;
+}
+
+.productListContainer .ant-card {
+    margin:15px 15px 30px 15px;
+}
+
+.productListContainer .ant-card-bordered {
+    border:none !important;
+}
+
+.productListContainer .ant-card-body {
+    padding: 10px 15px 30px 15px;
+}
+
+.productListContainer .name {
+    font-size: 15px;
+    color: #000000;    
+}
+
+.productListContainer .factory {
+    color: #82AF3A;
+    margin: 0px;
+}
+
+.productListContainer .price {
+    color: #82AF3A;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%; 
+    text-align: left;
+    padding-top: 10px;
+}
+.productListContainer .ant-card-actions {
+    width: 40%; 
+    margin-top : -73px;
+    float: right;
+    border: none;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.productListContainer .ant-card-actions > li {
+    margin-left: auto;
+
+}
+.productListContainer .ant-card-actions > li > span {
+    padding: 0 !important;
+}
+
+.productListContainer .ant-input-number {
+    width: 100%;
+}
+
+.productListContainer .ant-card-actions .ant-btn {
+    width: 100%;
+    background: #518F7C;
+    color: #ffffff;
+    border: none ;
+    border-radius: 0px;
+}
+
+.productListContainer .ant-card-actions .ant-input-number {
+    border: 1px solid #518F7C ;
+    border-radius: 0px;
+}
+
+.productListContainer .ant-card-actions li:nth-child(2) {
+    margin-left:-1px;
+}
+
+.ant-pagination {
+    color: #518F7C;
+}
+
+
+
+.ant-pagination-item, .ant-pagination-item-link {
+    border-color:#518F7C !important;    
+}
+
+.ant-pagination-item a,.ant-pagination-item-link > .anticon {
+    color: #518F7C !important;
+}
+
+.ant-pagination-item:hover a {
+    color: #82AF3A;
+}
+
+.ant-pagination-item:hover {
+    border-color: #82AF3A;
+}
+
+.ant-pagination-item-active {
+    border-color:#518F7C;
+    background: #518F7C;
+    
+}
+
+.ant-pagination-item-active a {
+    color: #ffffff !important;
+}
+
+.ant-pagination-item-active:hover {
+    background: #82AF3A;
+    
+}
+
+.ant-pagination-item-active:hover a {
+    color: #ffffff;
+    
+}
+
+.ant-select:not(.ant-select-disabled) .ant-select-selector {
+    border-color: #518F7C;
+}
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+    border-color: #518F7C;
+}
+
+.ant-pagination-options  .ant-select-selector .ant-select-selection-item {
+    color: #518F7C;
+}
+
+.ant-pagination-options .ant-select-arrow {
+    color: #518F7C !important;
+}
+
+.ant-pagination .ant-pagination-disabled .ant-pagination-item-link {
+    border-color: #D3E5DF !important;
+}
+
+.ant-pagination .ant-pagination-disabled .ant-pagination-item-link .anticon {
+    color: #D3E5DF !important;
+
+}

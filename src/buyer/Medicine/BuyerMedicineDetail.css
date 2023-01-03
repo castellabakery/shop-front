@@ -1,0 +1,194 @@
+.table-center {
+    margin: 0 auto;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.medicine-detail-container {
+    width: 90%;
+    margin: 50px;
+}
+
+.medicine-detail-description {
+    text-align: left;
+    margin: 0 0 0 10px;
+}
+.medicine-detail-description .productName {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 0 10px;
+}
+.medicine-detail-description .ingredientName {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+}
+
+.medicine-detail-description .priceGroup {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 10px;
+}
+
+.medicine-detail-description .priceGroup .price {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.medicine-detail-description .priceGroup .quantity {
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.medicine-detail-description .priceGroup .quantity input {
+    width: 50%;
+}
+
+.medicine-detail-description .priceGroup .quantity .ant-input-number-group-addon{
+    line-height: 10px;
+}
+
+.medicine-detail-description .btnGroup  {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.medicine-detail-description .btnGroup button {
+    vertical-align: middle;
+    line-height: 20px;
+    height: 40px;
+}
+
+.medicine-detail-description .btnGroup .buy {
+    width: 100%;
+    margin: 0 5px 0 0;
+    font-weight: 600;
+}
+
+.medicine-detail-description .btnGroup .cart {
+    width: 10%;
+}
+
+.medicine-detail-description .btnGroup .buy button {
+    vertical-align: middle;
+    line-height: 20px;
+    height: 40px;
+}
+
+.medicine-detail-info {
+    margin: 0 0 20px 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.medicine-detail-info .column {
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    /*border-right: 1px solid rgba(68, 68, 68, 0.2);*/
+    font-weight: 600;
+}
+
+.medicine-detail-info .data {
+    margin: 0 0 0 170px;
+}
+
+.medicine-detail-button button {
+    margin: 0 3px;
+}
+
+.medicine-detail-detailInfo {
+    width: 100%;
+    padding: 30px 0;
+}
+
+/* potionworks */
+
+.medicineTag {
+    padding: 5px 0;
+}
+
+.medicineTag span {
+    
+}
+
+.tag01 {
+    display: inline-block;
+    color: #ffffff;
+    padding: 3px 10px;
+    background: #82AF3A;
+    font-size: 14px;
+}
+
+.tag02 {
+    display: inline-block;
+    color: #ffffff;
+    padding: 3px 10px;
+    background: #518F7C;
+    font-size: 14px;
+
+}
+
+.tag03 {
+    display: inline-block;
+    color: #ffffff;
+    padding: 3px 10px;
+    background: #1F6FBF;
+    font-size: 14px;
+}
+
+.medicine-detail-description .productName {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.medicine-detail-description .ingredientName {
+    color: #6C6C6C;
+    font-size: 18px;
+    margin: 0px;
+    border-bottom: 1px solid #DBDBDB;
+    padding-bottom: 10px;
+}
+
+.medicine-detail-description .priceGroup {
+    display: block;
+}
+
+.medicine-detail-description .priceGroup .price {
+    color: #518F7C;
+    font-size: 24px; 
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.quantity .ant-input-number {
+    margin-left: 15px;
+}
+
+.medicine-detail-info .column {
+    width:100px ;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #6C6C6C;
+}
+.medicine-detail-info .data {
+    margin-left: 100px;
+    padding-bottom: 10px;
+    
+}

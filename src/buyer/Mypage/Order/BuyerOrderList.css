@@ -1,0 +1,86 @@
+.table-center {
+    margin: 0 auto;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.rowCol-padding-10 div{
+    padding: 5px;
+}
+
+.site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+}
+
+.col-margin-left-12 div {
+    margin-left: 12.5%;
+}
+
+.col-margin-left-10 div {
+    margin-left: 10%;
+}
+
+/* potionworks */
+
+.mypageOrderList .filter_line {
+    justify-content: center;
+}
+
+.mypageOrderList .filter_div > div > div.ant-row:nth-child(2) {
+    
+}
+.mypageOrderList .filter_div > div > div.ant-row:nth-child(2) > div {
+    margin-left: 0px !important;
+    width:100%;
+    max-width: 100% !important;
+    flex:100%;
+}
+
+.mypageOrderList .filter_div > div > div.ant-row:nth-child(2) > div > div {
+    float: inherit !important;
+    text-align: center;
+}
+
+.mypageOrderList .filter_div > div > div.ant-row:nth-child(2) > div > div > button {
+    margin: 5px 5px 0 0;
+}
+
+.mypageOrderList .filter_div > div > div.ant-row:nth-child(3) > div {
+    margin-left: 0px !important;
+    max-width: 100% !important;
+    flex:100%;   
+}
+
+.mypageOrderList .filter_div > div > div.ant-row:nth-child(3) > div > div {
+    float: none !important;
+    text-align: center;
+}
+
+.mypageOrderList .filter_div > div > div.ant-row:nth-child(3) > div > div >button { 
+    width: 200px; 
+    padding: 10px ;
+    height: 44px;
+}
+
+.mypageOrderList > .ant-row:nth-child(2) {
+    display: none;
+}
+
+.mypageOrderList > form {
+    margin-bottom: 20px;
+}
+
+.mypageOrderList .ant-table-content table tr td:nth-child(3) > div .ant-row {
+    align-items: center;
+    gap:10px;
+}

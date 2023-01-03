@@ -1,0 +1,115 @@
+
+.best-card-component {
+
+}
+
+.best-card-component .card-image {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.best-card-component .count-input {
+    text-align: center;
+}
+
+/* potionworks */
+
+.best-banner .ant-card {
+    width: calc(100% - 40px) !important;
+    margin:0px auto;
+}
+
+.best-banner .ant-card-cover {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+.best-banner .ant-card-cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(50, 50);
+    transform: translate(50, 50);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+}
+
+/* potionworks */
+
+.best-card-component .ant-card-meta-title {
+    text-align: left;
+    
+    font-size: 15px;
+    color: #000000;
+}
+
+.best-card-component .ant-descriptions-item-label {
+    width: inherit !important;
+
+}
+
+.best-card-component .ant-descriptions-item-content {
+    text-align: left;
+}
+
+.best-card-component .ant-descriptions-item-container {
+    padding: 0px;
+}
+
+.best-card-component .ant-card-bordered {
+    border: none;
+}
+
+.productListContainer .price {
+    color: #82AF3A;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.best-card-component .ant-card-body .ant-card-meta:last-child {
+    
+    width: 50%;
+    text-align: left;
+
+}
+
+.best-card-component .ant-card-body .ant-card-meta:last-child .ant-card-meta-title {
+    color: #82AF3A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.best-card-component .ant-card-actions {
+    width: 50%;
+    float: right;
+    margin-top: -50px;
+    border:0px;
+}
+
+.best-card-component .ant-card-actions li {
+    margin: 0px -1px;
+}
+
+.best-card-component .ant-card-actions .ant-input-number {
+    width: 100% !important;
+    border:1px solid #518F7C ;
+    color: #518F7C;
+    border-radius: 0px;
+
+}
+
+.best-card-component .ant-card-actions .ant-btn {
+    width: 100%;
+    background: #518F7C;
+    color: #ffffff;
+    border:0px;
+    border-radius: 0px;
+}
+

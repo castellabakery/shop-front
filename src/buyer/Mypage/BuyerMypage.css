@@ -1,0 +1,117 @@
+.table-center {
+    margin: 0 auto;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.rowCol-padding-10 div{
+    padding: 5px;
+}
+
+.site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+}
+
+.col-margin-left-12 div {
+    margin-left: 12.5%;
+}
+
+.col-margin-left-10 div {
+    margin-left: 10%;
+}
+
+/* potionworks */
+
+.pageTitle {
+    text-align: center;
+}
+
+.pageSubtitle {
+    font-size: 16px;
+    color: #8B8B8B;
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+.mypageUserName {
+    margin-left: 0px !important;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.mypagrUser > div {
+    text-align: center;
+}
+
+.mypagrUser > div:first-child {
+    text-align: left;
+    padding-left: calc(25% - 200px);
+    border-right: 1px solid #DBDBDB;
+}
+
+.mypagrUser .anticon {
+    font-size: 30px;
+    color: #518F7C;
+    padding-bottom: 15px;
+}
+
+.mypagrUser > div > p:nth-child(2) {
+    color: #518F7C;
+}
+
+.mypagrUser > div > p:nth-child(3) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mypageStatus {
+    justify-content: space-evenly;
+}
+
+.mypageStatus > div {
+    text-align: center;
+    color: #82AF3A;
+}
+
+.mypageStatus > div:nth-child(3),
+.mypageStatus > div:nth-child(4) {
+    color: #518F7C;
+}
+
+.mypageStatus > div:nth-child(5),
+.mypageStatus > div:nth-child(6) {
+    color: #1F6FBF;
+}
+
+.mypageStatus > div > p {
+    font-size: 21px;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.listMypage #table_filter_form {
+    margin-top: 20px;
+}
+
+.listMypage #table_filter_form + .ant-row:nth-child(2) {
+    display: none;
+}
+
+.listMypage table tr.ant-table-row td.ant-table-cell:nth-child(3) .ant-row {
+   align-items: center;
+}
+
+.listMypage table tr.ant-table-row td.ant-table-cell:nth-child(3) .ant-row div {
+    padding-right: 10px;
+ }
+
